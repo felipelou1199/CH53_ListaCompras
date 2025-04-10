@@ -155,6 +155,7 @@ btnClear.addEventListener("click", function(event){
     alertValidacionesTexto.innerHTML=""
     alertValidaciones.style.display = "none"
 // localStorage
-    localStorage.clear();
+    localStorage.removeItem("datos");
+    localStorage.removeItem("resumen");
 
 });
